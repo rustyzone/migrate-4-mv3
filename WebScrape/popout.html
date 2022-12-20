@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simple Scraper</title>
+    <style>
+    body{
+      max-height:500px;
+      overflow:auto;
+      width:300px;
+    }
+    select{width:55px;}
+    input{
+      width:100px;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Setup Scrape</h1>
+
+    <div class="commands-list">
+      <!-- Example -->
+      <div class="command-item">
+        <select>
+          <option value="wait">Wait</option>
+          <option value="click">Click</option>
+          <option value="enter">Enter Value</option>
+          <option value="save">Save Value</option>
+        </select>
+        <input class="value-1" placeholder="200ms"/> <!--<- wait time or queryselector-->
+        <input class="value-2" placeholder="Optional"/> <!--<- E.g is entering data-->
+      </div>
+      <!-- -->
+    </div>
+    <div class="action-buttons">
+      <button class="new-command">Add Command</button>
+      <button class="run-command">Run</button>
+    </div>
+    <textarea style="display:none;"></textarea>
+    <script src="popout.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "Epic Mode",
+  "version": "0.01",
+  "description": "Epic Mode - Make browsing epic",
+  "action": {
+    "default_title": "Epic Mode",
+    "default_popup": "popout.html"
+  },
+  "background": {
+    "service_worker": "sw.js"
+  },
+  "permissions": ["offscreen"],
+  "manifest_version": 3
+}

@@ -1,0 +1,11 @@
+{
+  "name": "To Do List",
+  "version": "0.01",
+  "description": "A simple pop out todo list",
+  "action": {
+    "default_title": "To Do List",
+    "default_popup": "popout.html"
+  },
+  "permissions": ["storage"],
+  "manifest_version": 3
+}
